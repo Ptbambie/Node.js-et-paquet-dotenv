@@ -1,0 +1,11 @@
+require('dotenv').config() //paquets utilisé
+
+// const port = process.env.SERVER_PORT;//rappel dans le fichier .env le port
+// server.listen(port);
+
+const name = process.env.MY_NAME;
+const city = process.env.MY_CITY;
+const language = process.env.MY_LANGUAGE;
+
+
+console.log(`I'am ${process.env.MY_NAME}, wilder in ${process.env.MY_CITY}, and i love ${process.env.MY_LANGUAGE}`);
